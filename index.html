@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="Christopher Picot" />
+    <meta name="keywords" content=", , , , mot1, mot2, serie de mots" />
+    <title>BASE DU JS</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Html -->
+    <div></div>
+    <!-- Script Js -->
+    <script>
+      "use strict"; // Le use strict permet de lever certaines erreurs qui normalement ne sont pas prises en compte
+      //var toto = "toto";  il est impossible de créer accidentellement des variables globales avec le use strict
+      var toto = "tata";
+      console.log(toto);
+      let coucou = "coucou";
+      //voiture = "une voiture rouge";
+      console.log(coucou);
+      // génère un prompt d'alert
+      alert("Bonjour à tous !");
+      // inscrit directement dans la page web
+      document.write("<h1>vous êtes dans votre page html, navigateur</h1>");
+      //popup avec une question qui attend une réponse du user (utilisateur)
+      let question = window.prompt("Une question ?");
+      console.log(question);
+    </script>
+    <script src="js/monscript1.js"></script>
+  </body>
+</html>
