@@ -35,3 +35,19 @@ console.log(phraseNumber);
 // Les backclic permettent d'éviter la concatenation
 let phrase3 = ` Le chiffre est : $(number1) $(number2)`;
 console.log(phrase3);
+
+// ------------------------ LES TYPES DE VARIABLES ----------------------------
+let string = "Je suis une chaine de caractère";
+let number = 24;
+let number24 = "24";
+console.log(number + parseInt(number24));
+let boolean = true; // OUn booléen est true ou false (vrai ou faux)
+let array = ["Je", "suis", "mairot", 50, true, false, ["voiture", 15]]; // un tableau
+console.log(array); //Un tableau commence à l'index 0 => la première valeur du tableau
+console.log(array[1]); //donc ici on a un "suis"
+console.log(array);
+
+let object = { prenom: "louis", age: 30, ville: "Paris", km: 70 }; // L'objet fonctionne avec des key et des values key:value
+
+console.log(object);
+//
