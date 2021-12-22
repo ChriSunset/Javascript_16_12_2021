@@ -71,5 +71,6 @@ window.addEventListener("mousedown", () => {
 
 // MouseUP
 window.addEventListener("mouseup", () => {
+  //mouseMove.style.transition = "ease-in-out 1s";
   mouseMove.style.transform = "scale(1) translate(-50%,-50%)";
 });
