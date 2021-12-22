@@ -11,14 +11,18 @@
   font-family: "Shadows Into Light", cursive;
   font-family: "Texturina", serif;
 }
+
 body {
   background-image: url("../img/sky.png");
   width: 100%;
+  margin: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 /************** HEADER **************/
-.menu {
-}
 
 .menu ul li {
   list-style-type: none;
@@ -27,30 +31,37 @@ body {
 }
 
 header {
-  margin: auto;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   background: linear-gradient(pink, lightblue);
-  width: 50%;
+  width: 100%;
 }
 
 /**************** MAIN ****************/
+
 .container {
   width: 50%;
   margin: auto;
+  background-color: antiquewhite;
 }
 
-.sunset {
+.sunset1,
+.sunset2,
+.sunset3 {
   margin: 20px;
 }
-
-.text {
+.text1,
+.text2,
+.text3 {
   display: inline-block;
   width: 60%;
   margin: 10px;
 }
 
-.sunset img {
+.sunset1 img,
+.sunset2 img,
+.sunset3 img {
   display: inline-block;
   width: 35%;
 }
@@ -60,6 +71,8 @@ header {
 footer {
   background-color: burlywood;
   height: 100px;
+  width: 100%;
+  margin: 0;
 }
 
 .social ul li {
