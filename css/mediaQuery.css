@@ -1,0 +1,28 @@
+/* portable */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+p {
+  width: 300px;
+}
+/* tablette */
+@media screen and (min-width: 576px) {
+  p {
+    padding: 15px;
+    width: 500px;
+  }
+  .bgPortable {
+    background: red;
+  }
+}
+/* desktop */
+@media screen and (min-width: 768px) {
+  p {
+    padding: 15px;
+    width: 500px;
+  }
+  .bgPortable {
+    background: rgb(0, 255, 55);
+  }
+}
